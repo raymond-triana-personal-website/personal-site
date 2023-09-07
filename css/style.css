@@ -1,0 +1,33 @@
+/*Handles styling that is website wide relating to the body of the webpage*/
+body {
+    background-color: antiquewhite;
+  }
+  
+  .section_header {
+    display: flexbox;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .subheader {
+    display: flexbox;
+    text-align: left;
+    text-decoration: underline;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    box-shadow: 0 -2px 4px -2px black;
+    text-align: center;
+  }
+  
+  footer > a {
+    margin: 5px;
+  }
+  
