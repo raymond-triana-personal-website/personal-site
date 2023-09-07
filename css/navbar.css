@@ -1,0 +1,49 @@
+/*Styling for the website wide nabar*/
+.navbar-header{
+    border: 2px solid red;
+    background-color: rgba(153, 0, 255, 0.384);
+    overflow: hidden;
+}
+
+.navbar-item{
+    display: inline;
+    position: relative;  
+    width: 100%;  
+}
+
+.navbar-anchor:link{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-anchor:hover{
+    color: blue;
+}
+
+.navbar-anchor:active{
+    color:hotpink;
+}
+
+#navbar-title{
+
+    display: inline;
+    position: relative;    
+}
+
+.navbar-floater{
+
+    display: inline;
+    padding: 1rem 1rem;
+    vertical-align: top;
+    justify-self: left;
+    float: left;
+
+}
+
+.navbar-div{
+    display: inline;
+    padding: 1rem 1rem;
+    vertical-align: top;
+    justify-content: right;
+    float: right;
+}
