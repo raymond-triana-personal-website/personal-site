@@ -1,0 +1,8 @@
+/*Portfolio specific styling*/
+
+#portfolio-description{
+    text-shadow: rgb(0, 255, 234) 1px 0 10px;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+}
