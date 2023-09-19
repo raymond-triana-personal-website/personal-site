@@ -25,6 +25,8 @@ footer {
   box-sizing: border-box;
   box-shadow: 0 -2px 4px -2px black;
   text-align: center;
+  z-index: 1;
+  background-color: antiquewhite;
 }
 
 footer > a {
