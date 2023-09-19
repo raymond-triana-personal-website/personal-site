@@ -1,0 +1,22 @@
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.div-centered{
+    text-align: center;
+}
+
+@media screen and (min-width:870px) {
+    
+    #form-message{
+        width: 30%;
+        resize: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #form-message{
+        width: 80%;
+        resize: none;
+    }
+}

@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="../css/navbar.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/contact.css" />
   </head>
   <body>
     <header class="navbar-header">
@@ -28,18 +28,23 @@
         </a>
       </div>
     </header>
-    <h1>Contact Me</h1>
-    <p>
-      Below you will find a form that you can use to get in contact with me.
-    </p>
-    <form action="" class="contact-form">
-        <p>Name: </p>
-        <input type="text" name="form_name" id="form_name">
-        <p>Email: </p>
-        <input type="email" name="form_email" id="form_email">
-        <p>Message: </p>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="Submit">
+    <div class="div-centered">
+      <h1>Contact Me</h1>
+      <p>
+        Below you will find a form that you can use to get in contact with me.
+      </p>
+    </div>
+    <form action="./contact_redirect.html" class="contact-form">
+      <div class="div-centered">
+        <p>Name:</p>
+        <input type="text" name="form_name" id="form-name" />
+        <p>Email:</p>
+        <input type="email" name="form_email" id="form-email" />
+        <p>Message:</p>
+        <textarea name="" id="form-message" cols="30" rows="10"></textarea>
+        <br />
+        <input type="submit" value="Submit" />
+      </div>
     </form>
     <footer>
       <a href="https://github.com/raymondtriana">
