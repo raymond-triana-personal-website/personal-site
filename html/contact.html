@@ -36,10 +36,16 @@
     </div>
     <form action="./contact_redirect.html" class="contact-form">
       <div class="div-centered">
-        <p>Name:</p>
-        <input type="text" name="form_name" id="form-name" />
-        <p>Email:</p>
-        <input type="email" name="form_email" id="form-email" />
+        <p>
+          <span class="required">*</span>
+          Name:
+        </p>
+        <input type="text" name="form_name" id="form-name" required />
+        <p>
+          <span class="required">*</span>
+          Email:
+        </p>
+        <input type="email" name="form_email" id="form-email" required />
         <p>Message:</p>
         <textarea name="" id="form-message" cols="30" rows="10"></textarea>
         <br />
