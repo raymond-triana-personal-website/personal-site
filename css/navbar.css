@@ -47,3 +47,14 @@
     justify-content: right;
     float: right;
 }
+
+@media screen and (max-width:607px){
+    .navbar-floater{
+        display: flex;
+    }
+    .navbar-div{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
