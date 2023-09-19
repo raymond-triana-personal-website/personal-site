@@ -6,7 +6,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="../css/navbar.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="../css/portfolio.css" />
   </head>
   <body>
     <header class="navbar-header">
@@ -23,6 +23,9 @@
         <a href="#" class="navbar-anchor">
           <h2 class="navbar-item">Portfolio</h2>
         </a>
+        <a href="./contact.html" class="navbar-anchor">
+          <h2 class="navbar-item">Contact Me</h2>
+        </a>
       </div>
     </header>
     <h1 class="section_header">Portfolio</h1>
@@ -34,18 +37,31 @@
       <h2>Planned V. Actual</h2>
       <p>
         <b> Purpose: </b>
-        To create a report to track the planned time vs the actual time a driver took to complete a route.
+        To create a report to track the planned time vs the actual time a driver
+        took to complete a route.
       </p>
       <p>
         <b>Description:</b>
-        <br>
-        The Planned V. Actual report is a Java program which parses two CSV files for information and compiles them into one report. <br>
-        This report was made due to the lack of an accurate report despite the fact that the information needed to make it was available in parts in two separate reports. <br>
-        The first report that Planned V. Actual looks at is called HOS Records Timecard which has an accurate off duty time and GPS location. <br>
-        The second report that is parsed is coincidentally named Planned V. Actual By Drivers which houses an accurate on duty time, planned time, driver ID, name, tractor, and GPS location. <br>
-        My report caches the first on duty time taken after the driver has driven more than 1 mile away from the yard as the start time of the route, the time a driver goes off duty while in a yard, and does a simple subtraction to get the elapsed time. <br>
-        This elapsed time is the compared to the planned time it should take to complete the route giving us the time the driver is ahead or behind schedule. <br>
-        All of this information is finally printed out as a TreeView in JavaFX and can be saved as a CSV for excel importing.
+        <br />
+        The Planned V. Actual report is a Java program which parses two CSV
+        files for information and compiles them into one report. <br />
+        This report was made due to the lack of an accurate report despite the
+        fact that the information needed to make it was available in parts in
+        two separate reports. <br />
+        The first report that Planned V. Actual looks at is called HOS Records
+        Timecard which has an accurate off duty time and GPS location. <br />
+        The second report that is parsed is coincidentally named Planned V.
+        Actual By Drivers which houses an accurate on duty time, planned time,
+        driver ID, name, tractor, and GPS location. <br />
+        My report caches the first on duty time taken after the driver has
+        driven more than 1 mile away from the yard as the start time of the
+        route, the time a driver goes off duty while in a yard, and does a
+        simple subtraction to get the elapsed time. <br />
+        This elapsed time is the compared to the planned time it should take to
+        complete the route giving us the time the driver is ahead or behind
+        schedule. <br />
+        All of this information is finally printed out as a TreeView in JavaFX
+        and can be saved as a CSV for excel importing.
       </p>
     </section>
     <footer>
